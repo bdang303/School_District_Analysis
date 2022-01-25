@@ -19,19 +19,18 @@ The following script was used to replace the scores with NaN:
     (student_data_df["grade"] == "9th") 
     , "math_score"] = np.NaN
 
-* How is the district summary affected?
-o Below is an overall summary at the district level. Following these changes, there was < 1.0% decrease in percentage of students passing math, reading, and overall. The average math and reading scores were minimally impacted. 
-o ![DISTRICT SUMMARY](https://github.com/bdang303/School_District_Analysis/blob/main/Resources/DistrictSummary.png)
+* Below is an overall summary at the district level. Following these changes, there was < 1.0% decrease in percentage of students passing math, reading, and overall. The average math and reading scores were minimally impacted. 
+    
+    ![DISTRICT SUMMARY](https://github.com/bdang303/School_District_Analysis/blob/main/Resources/DistrictSummary.png)
 
-* How is the school summary affected?
-o The replacement of scores results in a significant increase in % of Students passing reading at Thomas high school (+30%) and overall passing % (+25%)
-* How does replacing the ninth gradersÕ math and reading scores affect Thomas High SchoolÕs performance relative to the other schools?
-o Prior to the replacement of scores, Thomas High School had a significantly lower overall % passing rate compared to other schools in the district. However, following the change, the school actually now has the second highest overall passing %
-o ![SCHOOL SUMMARY](https://github.com/bdang303/School_District_Analysis/blob/main/Resources/SchoolSummaryScreenshot.png)
-o 
+* The replacement of scores results in a significant increase in % of Students passing reading at Thomas high school (+30%) and overall passing % (+25%)
+* Prior to the replacement of scores, Thomas High School had a significantly lower overall % passing rate compared to other schools in the district. However, following the change, the school actually now has the second highest overall passing %
+
+    ![SCHOOL SUMMARY](https://github.com/bdang303/School_District_Analysis/blob/main/Resources/SchoolSummaryScreenshot.png)
+
 * How does replacing the ninth-grade scores affect the following:
-o Math and reading scores by grade
-* Thomas High School had one of the highest average math & reading scores for students in 9th grade, so by replacing it the summary table no longer reflects average scores for Thomas High school at this grade.
+** Math and reading scores by grade
+*** Thomas High School had one of the highest average math & reading scores for students in 9th grade, so by replacing it the summary table no longer reflects average scores for Thomas High school at this grade.
 o Scores by school spending
 * Scores by school spending did not reflect any changes to results in the spending summary table. 
 o Scores by school size
