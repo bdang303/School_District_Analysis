@@ -28,14 +28,15 @@ The following script was used to replace the scores with NaN:
 
     ![SCHOOL SUMMARY](https://github.com/bdang303/School_District_Analysis/blob/main/Resources/SchoolSummaryScreenshot.png)
 
-* How does replacing the ninth-grade scores affect the following:
-** Math and reading scores by grade
-*** Thomas High School had one of the highest average math & reading scores for students in 9th grade, so by replacing it the summary table no longer reflects average scores for Thomas High school at this grade.
-o Scores by school spending
+### How does replacing the ninth-grade scores affect the following:
+
+#### Math and reading scores by grade
+*Thomas High School had one of the highest average math & reading scores for students in 9th grade, so by replacing it the summary table no longer reflects average scores for Thomas High school at this grade.
+#### Scores by school spending
 * Scores by school spending did not reflect any changes to results in the spending summary table. 
-o Scores by school size
+#### Scores by school size
 * Thomas High School fell into the ÒMediumÓ size school bin, however, the averages did not reflect any difference 
-o Scores by school type
+#### Scores by school type
 * As a charter school, the replacement of results did not reflect any impact to the results of charter schools
 
 ## Analysis Summary
