@@ -9,12 +9,12 @@ Upon learning that the 9th grade scores for students at Thomas High School had b
 ### Using loc to replace dishonest test scores
 The following script was used to replace the scores with NaN:
 
-student_data_df.loc[
+    student_data_df.loc[
     (student_data_df["school_name"] == "Thomas High School") &
     (student_data_df["grade"] == "9th") 
     , "reading_score"] = np.NaN
 
-student_data_df.loc[
+    student_data_df.loc[
     (student_data_df["school_name"] == "Thomas High School") &
     (student_data_df["grade"] == "9th") 
     , "math_score"] = np.NaN
