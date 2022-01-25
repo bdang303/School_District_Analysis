@@ -31,7 +31,7 @@ The following script was used to replace the scores with NaN:
 ### How does replacing the ninth-grade scores affect the following:
 
 #### Math and reading scores by grade
-*Thomas High School had one of the highest average math & reading scores for students in 9th grade, so by replacing it the summary table no longer reflects average scores for Thomas High school at this grade.
+* Thomas High School had one of the highest average math & reading scores for students in 9th grade, so by replacing it the summary table no longer reflects average scores for Thomas High school at this grade.
 #### Scores by school spending
 * Scores by school spending did not reflect any changes to results in the spending summary table. 
 #### Scores by school size
